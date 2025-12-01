@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "Choose gear engineered for decades, not seasons. Smart reviews for ultra-light, durable, and repairable equipment.",
   generator: "v0.app",
   icons: {
-    icon: "/favicon.ico",
+    icon: [{ url: "/favicon.jpg", type: "image/svg+xml" }, { url: "/favicon.ico" }],
   },
 }
 
