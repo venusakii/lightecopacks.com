@@ -66,7 +66,12 @@ export default function HomePage() {
       <section className="relative pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-muted/30 via-background to-primary/5" />
         <div className="absolute inset-0 opacity-40">
-          <svg className="w-full h-full" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            className="w-full h-full"
+            viewBox="0 0 1200 800"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+          >
             <path d="M0,200 Q300,100 600,200 T1200,200 L1200,0 L0,0 Z" fill="url(#gradient1)" opacity="0.3" />
             <path d="M0,400 Q300,300 600,400 T1200,400 L1200,0 L0,0 Z" fill="url(#gradient2)" opacity="0.2" />
             <defs>
